@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="throwableTNT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/throwableTNT_jar</output-path>
+    <root id="archive" name="throwableTNT.jar">
+      <element id="module-output" name="throwableTNT" />
+      <element id="extracted-dir" path="E:/Downloads/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

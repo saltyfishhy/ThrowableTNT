@@ -1,0 +1,9 @@
+main: me.saltyfishhy.throwTNT.Main
+name: throwableTNT
+author: saltyfishhy
+version: 1.0.0
+
+commands:
+  tnttutorial:
+  gettnt:
+  tntplugin:
