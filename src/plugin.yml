@@ -1,7 +1,7 @@
 main: me.saltyfishhy.throwTNT.Main
 name: throwableTNT
 author: saltyfishhy
-version: 1.0.0
+version: 1.0.1
 
 commands:
   tnttutorial:
