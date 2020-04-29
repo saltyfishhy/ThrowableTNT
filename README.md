@@ -1,3 +1,5 @@
+[Install Jar File](https://github.com/saltyfishhy/ThrowableTNT/raw/master/out/artifacts/throwableTNT_jar/throwableTNT.jar)
+
 # ThrowableTNT
 
 A Minecraft Plugin that makes TNT throwable! Configurable! 
