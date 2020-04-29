@@ -5,5 +5,8 @@ version: 1.0.0
 
 commands:
   tnttutorial:
+    description: Tells a user how to use the plugin
   gettnt:
-  tntplugin:
+    description: Gives a user either 1 piece of throwing tnt or the specified amount
+  tntreload:
+    description: Lets a user with the permission "tnt.admin" reload the config

@@ -11,6 +11,7 @@ public class Main extends JavaPlugin {
         //registers the commands
         getCommand("tnttutorial").setExecutor(new Commands());
         getCommand("gettnt").setExecutor(new Commands());
+        getCommand("tntreload").setExecutor(new Commands());
         //sends a message to the console saying the plugin has been enabled
         getLogger().info("Throwable TNT plugin Enabled.");
         //creates a variable named "pm" that is equal to the plugin manager
