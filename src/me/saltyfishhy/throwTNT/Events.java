@@ -94,7 +94,9 @@ public class Events implements Listener {
                         TNTPrimed tnt = (TNTPrimed) playerWorld.spawn(e.getPlayer().getLocation(), TNTPrimed.class);
                         Vector playerDirection = e.getPlayer().getLocation().getDirection();
                         Vector velocity = playerDirection.multiply(0.8D);
+                        velocity.multiply(plugin.getConfig().getInt("velocityMultiplier"));
                         tnt.setVelocity(velocity);
+                        tnt.setFuseTicks(plugin.getConfig().getInt("fuseTime") * 20);
                     } else {
                         e.getPlayer().sendMessage(ChatColor.DARK_RED + "TNT > " + ChatColor.GRAY + "You do not have permission to throw tnt.");
                     }

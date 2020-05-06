@@ -1,3 +1,5 @@
 leftOrRightClick: RIGHT_CLICK
 commandPermission: throw.tnt
 amountLimit: 5
+velocityMultiplier: 1
+fuseTime: 5
